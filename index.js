@@ -1,11 +1,7 @@
-const { useLayoutEffect } = require("react");
-
-useLayoutEffect school = {
-useLayoutEffect school = {
-    name: "Westview High",
-    averageClassSize: 25,
-    mascot: "Wildcat"
+let school = {
+    name: 'meskwaki',
+    averageClassSize: 3,
+    mascot: 'hawk'
 };
 
-const description = `${school.name}${school.averageClassSize}${school.mascot}`;
-document.getElementById("result").innerHTML = description;
+document.getElementById("result").innerHTML = `${school.name} has an average class size of ${school.averageClassSize} and theirmascot is a ${school.mascot}`;
