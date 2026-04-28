@@ -1,4 +1,4 @@
-let school = {
+const school = {
     name: 'meskwaki',
     averageClassSize: 3,
     mascot: 'hawk'
