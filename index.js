@@ -1,4 +1,4 @@
-const school = {
+const `school`= {
     name: 'meskwaki',
     average class size: '3',
     mascot: 'hawk'
